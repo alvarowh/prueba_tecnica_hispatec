@@ -1,0 +1,174 @@
+[
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 1,
+    "fields": {
+      "name": "Unknown Category"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 2,
+    "fields": {
+      "name": "Adventure"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 3,
+    "fields": {
+      "name": "Sci-Fi"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 4,
+    "fields": {
+      "name": "Tales"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 5,
+    "fields": {
+      "name": "Sports"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Category",
+    "pk": 6,
+    "fields": {
+      "name": "Comedy"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Customer",
+    "pk": 1,
+    "fields": {
+      "name": "Francis",
+      "surname": "Smith",
+      "country": "Australia",
+      "birth_date": "1986-03-21"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Customer",
+    "pk": 2,
+    "fields": {
+      "name": "John",
+      "surname": "Doe",
+      "country": "United Kingdom",
+      "birth_date": "1966-07-11"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Customer",
+    "pk": 3,
+    "fields": {
+      "name": "Margaret",
+      "surname": "Williams",
+      "country": "South Africa",
+      "birth_date": "1958-12-29"
+    }
+  },
+  {
+    "model": "prueba_tecnica_hispatec.Customer",
+    "pk": 4,
+    "fields": {
+      "name": "Kevin",
+      "surname": "James",
+      "country": "USA",
+      "birth_date": "2001-02-08"
+    }
+  },
+
+  {
+    "model": "prueba_tecnica_hispatec.Author",
+    "pk": 1,
+    "fields": {
+      "name": "Unkown",
+      "surname": "Author"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Author",
+    "pk": 2,
+    "fields": {
+      "name": "Joe",
+      "surname": "Abercrombie",
+      "country": "United Kingdom",
+      "birth_date": "2001-02-08"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Author",
+    "pk": 3,
+    "fields": {
+      "name": "J.K.",
+      "surname": "Rowling",
+      "country": "United Kingdom",
+      "birth_date": "1961-05-11"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Author",
+    "pk": 4,
+    "fields": {
+      "name": "Monza",
+      "surname": "Murcatto",
+      "country": "Italy",
+      "birth_date": "1971-05-11"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Author",
+    "pk": 5,
+    "fields": {
+      "name": "Peter",
+      "surname": "Sellers",
+      "country": "Canada",
+      "birth_date": "1978-10-26"
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Book",
+    "pk": 1,
+    "fields": {
+      "title": "Pillars of the Earth",
+      "summary": "Tom The Builder",
+      "category": 2,
+      "author": 3
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Book",
+    "pk": 2,
+    "fields": {
+      "title": "Game of Thrones",
+      "summary": "Arya Stark",
+      "category": 3,
+      "author": 2
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Book",
+    "pk": 3,
+    "fields": {
+      "title": "The Heroes",
+      "summary": "Blac Calder",
+      "category": 5,
+      "author": 2
+    }
+  },
+    {
+    "model": "prueba_tecnica_hispatec.Book",
+    "pk": 4,
+    "fields": {
+      "title": "Fire & Blood",
+      "summary": "Targaryen Dinasty",
+      "category": 4,
+      "author": 4
+    }
+  }
+
+]
